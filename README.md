@@ -11,5 +11,5 @@ IOS SOURCE: `source/MobileReview_gml/extensions/MobileReview/iOSSource/`
 
 ## Documentation
 
-We provide both a PDF version of the documentation included with the extension and inside the demo project (datafiles) and a fully converted version will follow shortly after on [Github Wiki](wiki) format (the latter will be the most up-to-date version, the other will follow shortly after). *If there are any PR requests with new feature implementation please make sure you also provide the documentation for the implemented features.*
+We provide both a PDF version of the documentation included with the extension and inside the demo project (datafiles) and a fully converted version will follow shortly after on [Github Wiki](../../wiki) format (the latter will be the most up-to-date version, the other will follow shortly after). *If there are any PR requests with new feature implementation please make sure you also provide the documentation for the implemented features.*
 
