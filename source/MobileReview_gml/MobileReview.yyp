@@ -1,0 +1,56 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "MobileReview",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MobileReview","folderPath":"folders/MobileReview.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/MobileReview/Extensions.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/MobileReview Demo/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/MobileReview Demo/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Yoyo Extensions Assets","folderPath":"folders/Yoyo Extensions Assets.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/Yoyo Extensions Assets/Font.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Yoyo Extensions Assets/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Yoyo Extensions Assets/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MobileReview Demo","folderPath":"folders/MobileReview Demo.yy",},
+  ],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Mobile Review Extension.docx","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Mobile Review Extension.pdf","CopyToMask":-1,"filePath":"datafiles",},
+  ],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.4.0.84",
+  },
+  "resources": [
+    {"id":{"name":"Obj_YoYo_textbox","path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},},
+    {"id":{"name":"Room_MobileReview","path":"rooms/Room_MobileReview/Room_MobileReview.yy",},},
+    {"id":{"name":"Spr_YoYo_button","path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",},},
+    {"id":{"name":"Font_YoYo_30","path":"fonts/Font_YoYo_30/Font_YoYo_30.yy",},},
+    {"id":{"name":"Obj_MobileReview","path":"objects/Obj_MobileReview/Obj_MobileReview.yy",},},
+    {"id":{"name":"Spr_YoYo_textbox","path":"sprites/Spr_YoYo_textbox/Spr_YoYo_textbox.yy",},},
+    {"id":{"name":"Font_YoYo_20","path":"fonts/Font_YoYo_20/Font_YoYo_20.yy",},},
+    {"id":{"name":"MobileReview","path":"extensions/MobileReview/MobileReview.yy",},},
+    {"id":{"name":"Obj_YoYo_text","path":"objects/Obj_YoYo_text/Obj_YoYo_text.yy",},},
+    {"id":{"name":"Font_YoYo_15","path":"fonts/Font_YoYo_15/Font_YoYo_15.yy",},},
+    {"id":{"name":"Spr_YoYo_Background","path":"sprites/Spr_YoYo_Background/Spr_YoYo_Background.yy",},},
+    {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"Obj_YoYo_button","path":"objects/Obj_YoYo_button/Obj_YoYo_button.yy",},},
+    {"id":{"name":"Room_YoYo","path":"rooms/Room_YoYo/Room_YoYo.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room_MobileReview","path":"rooms/Room_MobileReview/Room_MobileReview.yy",},},
+    {"roomId":{"name":"Room_YoYo","path":"rooms/Room_YoYo/Room_YoYo.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
