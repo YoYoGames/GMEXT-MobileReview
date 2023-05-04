@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"Rooms","order":1,"path":"folders/MobileReview Demo/Rooms.yy",},
     {"name":"MobileReview Demo","order":3,"path":"folders/MobileReview Demo.yy",},
+    {"name":"Rooms","order":1,"path":"folders/MobileReview Demo/Rooms.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Obj_YoYo_textbox","order":2,"path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},

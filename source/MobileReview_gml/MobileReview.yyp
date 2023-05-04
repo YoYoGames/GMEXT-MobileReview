@@ -11,15 +11,15 @@
   },
   "defaultScriptType": 1,
   "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MobileReview","folderPath":"folders/MobileReview.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/MobileReview/Extensions.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MobileReview Demo","folderPath":"folders/MobileReview Demo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/MobileReview Demo/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/MobileReview Demo/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MobileReview","folderPath":"folders/MobileReview.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/MobileReview/Extensions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Yoyo Extensions Assets","folderPath":"folders/Yoyo Extensions Assets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/Yoyo Extensions Assets/Font.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Yoyo Extensions Assets/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Yoyo Extensions Assets/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MobileReview Demo","folderPath":"folders/MobileReview Demo.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Mobile Review Extension.docx","CopyToMask":-1,"filePath":"datafiles",},

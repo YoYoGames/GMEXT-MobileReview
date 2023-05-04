@@ -16,7 +16,7 @@
   "date": "2020-11-23T08:59:09",
   "description": "",
   "exportToGame": true,
-  "extensionVersion": "0.0.1",
+  "extensionVersion": "1.0.0",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"MobileReview.ext","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"MobileReview_Show","argCount":0,"args":[],"documentation":"","externalName":"MobileReview_Show","help":"MobileReview_Show()","hidden":false,"kind":4,"returnType":1,},
