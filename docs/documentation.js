@@ -14,12 +14,15 @@ function MobileReview_Show() {}
 /** 
  * @module home
  * @title Home
- * @desc The Mobile Review extension works both on Android (using Google Play In-App Review API) and on iOS (using the native StoreKit Framework) and lets you prompt users to submit ratings and reviews without the inconvenience of leaving your app or game.
+ * @desc The Mobile Review extension works both on Android (using [Google Play In-App Reviews API](https://developer.android.com/guide/playcore/in-app-review)) and on iOS (using the native [StoreKit Framework](https://developer.apple.com/documentation/storekit)) and lets you prompt users to submit ratings and reviews without the inconvenience of leaving your app or game.
  * 
  * @section Info
  * @desc This section hosts some info on this extension.
  * @ref page.limitations
- * @ref page.features
+ * @section_end
+ * 
+ * @section Features
+ * @desc Show in-app review layout.
  * @section_end
  * 
  * @section Modules
