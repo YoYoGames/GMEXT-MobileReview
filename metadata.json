@@ -1,0 +1,14 @@
+[
+    {
+        "projectFile": "source/MobileReview_gml/MobileReview.yyp",
+        "extensionFile": "source/MobileReview_gml/extensions/MobileReview/MobileReview.yy",
+        "packageId": "com.yoyogames.mobilereviewext",
+        "packageName": "Mobile Review Ext",
+        "packageVersion": "1.1.0",
+        "includeFolders": null,
+        "includeResources": null,
+        "excludeFolders": null,
+        "excludeResources": null,
+        "format": "LTS22"
+    }
+]
