@@ -1,14 +1,18 @@
-[
-    {
-        "projectFile": "source/MobileReview_gml/MobileReview.yyp",
-        "extensionFile": "source/MobileReview_gml/extensions/MobileReview/MobileReview.yy",
-        "packageId": "com.yoyogames.mobilereviewext",
-        "packageName": "Mobile Review Ext",
-        "packageVersion": "1.1.0",
-        "includeFolders": null,
-        "includeResources": null,
-        "excludeFolders": null,
-        "excludeResources": null,
-        "format": "LTS22"
-    }
-]
+{
+    "gitHubUrl": "https://github.com/YoYoGames/GMEXT-MobileReview",
+    "projectFile": "source/MobileReview_gml/MobileReview.yyp",
+    "projectVersion": "LTS22",
+    "releaseTemplate": "templates/release_body.md",
+    "extensionMetaData": [
+        {
+            "extensionFile": "source/MobileReview_gml/extensions/MobileReview/MobileReview.yy",
+            "packageId": "com.yoyogames.mobilereviewext",
+            "packageName": "Mobile Review Ext",
+            "packageVersion": "1.1.0",
+            "packageFormat": "LTS22",
+            "includeFolders": null,
+            "includeResources": null,
+            "excludeResources": null
+        }
+    ]
+}
