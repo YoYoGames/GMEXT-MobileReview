@@ -4,7 +4,7 @@
     "name": "MobileReview",
     "androidactivityinject": "",
     "androidclassname": "MobileReview",
-    "androidcodeinjection": "<YYAndroidGradleDependencies>\r\nimplementation 'com.google.android.play:core:1.8.0'\r\n</YYAndroidGradleDependencies>\r\n\r\n",
+    "androidcodeinjection": "<YYAndroidGradleDependencies>\r\nimplementation 'com.google.android.play:review:2.0.1'\r\n</YYAndroidGradleDependencies>\r\n\r\n",
     "androidinject": "",
     "androidmanifestinject": "",
     "androidPermissions": [],
@@ -16,7 +16,7 @@
     "date": "2020-11-23T08:59:09",
     "description": "",
     "exportToGame": true,
-    "extensionVersion": "1.1.0",
+    "extensionVersion": "1.2.0",
     "files": [
         {
             "resourceType": "GMExtensionFile",
@@ -55,7 +55,7 @@
             "usesRunnerInterface": false
         }
     ],
-    "gradleinject": "\r\nimplementation 'com.google.android.play:core:1.8.0'\r\n",
+    "gradleinject": "\r\nimplementation 'com.google.android.play:review:2.0.1'\r\n",
     "hasConvertedCodeInjection": true,
     "helpfile": "",
     "HTML5CodeInjection": "",
