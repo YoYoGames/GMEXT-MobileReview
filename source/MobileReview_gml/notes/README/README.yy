@@ -1,9 +1,11 @@
 {
-  "resourceType": "GMNotes",
-  "resourceVersion": "1.1",
-  "name": "README",
-  "parent": {
-    "name": "MobileReview",
-    "path": "MobileReview.yyp",
+  "$GMNotes":"",
+  "%Name":"README",
+  "name":"README",
+  "parent":{
+    "name":"MobileReview",
+    "path":"MobileReview.yyp",
   },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
 }
