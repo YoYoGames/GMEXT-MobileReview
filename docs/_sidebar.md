@@ -1,6 +1,6 @@
 * ### [Mobile Review](Home)
-* ### [Info](#)
+* ### Info
   * ### [Extension's Features](features)
   * ### [Limitations](limitations)
-* ### [Modules](#)
+* ### Modules
   * ### [Functions](functions)
