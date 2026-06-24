@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"MobileReview",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"ExtensionCore","folderPath":"folders/ExtensionCore.yy","name":"ExtensionCore","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"MobileReview Demo","folderPath":"folders/MobileReview Demo.yy","name":"MobileReview Demo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/MobileReview Demo/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/MobileReview Demo/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -20,14 +21,19 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Yoyo Extensions Assets/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Yoyo Extensions Assets/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"GMEXT-MobileReview.html","CopyToMask":-1,"filePath":"datafiles","name":"GMEXT-MobileReview.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.600.0.562",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"MobileReview",
   "resources":[
+    {"id":{"name":"ExtensionCore","path":"extensions/ExtensionCore/ExtensionCore.yy",},},
+    {"id":{"name":"GMMobileReview","path":"extensions/GMMobileReview/GMMobileReview.yy",},},
     {"id":{"name":"MobileReview","path":"extensions/MobileReview/MobileReview.yy",},},
     {"id":{"name":"Font_YoYo_15","path":"fonts/Font_YoYo_15/Font_YoYo_15.yy",},},
     {"id":{"name":"Font_YoYo_20","path":"fonts/Font_YoYo_20/Font_YoYo_20.yy",},},
@@ -39,6 +45,8 @@
     {"id":{"name":"Obj_YoYo_textbox","path":"objects/Obj_YoYo_textbox/Obj_YoYo_textbox.yy",},},
     {"id":{"name":"Room_MobileReview","path":"rooms/Room_MobileReview/Room_MobileReview.yy",},},
     {"id":{"name":"Room_YoYo","path":"rooms/Room_YoYo/Room_YoYo.yy",},},
+    {"id":{"name":"ExtensionCore_api","path":"scripts/ExtensionCore_api/ExtensionCore_api.yy",},},
+    {"id":{"name":"GMMobileReview_API","path":"scripts/GMMobileReview_API/GMMobileReview_API.yy",},},
     {"id":{"name":"Spr_YoYo_Background","path":"sprites/Spr_YoYo_Background/Spr_YoYo_Background.yy",},},
     {"id":{"name":"Spr_YoYo_button","path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",},},
     {"id":{"name":"Spr_YoYo_textbox","path":"sprites/Spr_YoYo_textbox/Spr_YoYo_textbox.yy",},},

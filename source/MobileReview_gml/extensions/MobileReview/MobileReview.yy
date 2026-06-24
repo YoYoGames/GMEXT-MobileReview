@@ -11,16 +11,14 @@
   "androidsourcedir":"",
   "author":"",
   "classname":"MobileReview",
-  "copyToTargets":12,
+  "copyToTargets":0,
   "description":"",
   "exportToGame":true,
   "extensionVersion":"1.2.1",
   "files":[
-    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":-1,"filename":"MobileReview.ext","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":-1,"filename":"MobileReview.ext","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"MobileReview_Show","argCount":0,"args":[],"documentation":"","externalName":"MobileReview_Show","help":"MobileReview_Show()","hidden":false,"kind":4,"name":"MobileReview_Show","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
-      ],"init":"","kind":4,"name":"","order":[
-        {"name":"MobileReview_Show","path":"extensions/MobileReview/MobileReview.yy",},
-      ],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"","kind":4,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"\r\nimplementation 'com.google.android.play:review:2.0.1'\r\n",
   "hasConvertedCodeInjection":true,
