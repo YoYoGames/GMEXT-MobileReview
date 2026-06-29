@@ -28,13 +28,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.100.0.1077",
   },
   "name":"MobileReview",
   "resources":[
     {"id":{"name":"ExtensionCore","path":"extensions/ExtensionCore/ExtensionCore.yy",},},
     {"id":{"name":"GMMobileReview","path":"extensions/GMMobileReview/GMMobileReview.yy",},},
-    {"id":{"name":"MobileReview","path":"extensions/MobileReview/MobileReview.yy",},},
     {"id":{"name":"Font_YoYo_15","path":"fonts/Font_YoYo_15/Font_YoYo_15.yy",},},
     {"id":{"name":"Font_YoYo_20","path":"fonts/Font_YoYo_20/Font_YoYo_20.yy",},},
     {"id":{"name":"Font_YoYo_30","path":"fonts/Font_YoYo_30/Font_YoYo_30.yy",},},

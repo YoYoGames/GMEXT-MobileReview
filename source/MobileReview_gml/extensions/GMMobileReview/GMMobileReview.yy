@@ -3,7 +3,7 @@
   "%Name":"GMMobileReview",
   "androidactivityinject":null,
   "androidclassname":"GMMobileReview",
-  "androidcodeinjection":"<YYAndroidGradleDependencies>\r\nimplementation 'com.google.android.play:review:2.0.1'\r\n</YYAndroidGradleDependencies>\r\n\r\n",
+  "androidcodeinjection":"<YYAndroidGradleDependencies>\r\nimplementation 'com.google.android.play:review:2.0.2'\r\n</YYAndroidGradleDependencies>\r\n\r\n",
   "androidinject":null,
   "androidmanifestinject":null,
   "androidPermissions":[],
@@ -14,9 +14,9 @@
   "copyToTargets":12,
   "description":"",
   "exportToGame":true,
-  "extensionVersion":"0.0.1",
+  "extensionVersion":"1.3.0",
   "files":[
-    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":-1,"filename":"GMMobileReview.ext","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":12,"filename":"GMMobileReview.ext","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"__mobile_review_show","argCount":2,"args":[1,2,],"documentation":"@param {Pointer} _arg_buffer\r\n@param {Real} _arg_buffer_length\r\n@returns {Real}","externalName":"__EXT_NATIVE__mobile_review_show","help":"","hidden":true,"kind":4,"name":"__mobile_review_show","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"__GMMobileReview_invocation_handler","argCount":2,"args":[1,2,],"documentation":"@param {Pointer} _buffer_ptr\r\n@param {Real} _buffer_size","externalName":"__EXT_NATIVE__GMMobileReview_invocation_handler","help":"","hidden":true,"kind":4,"name":"__GMMobileReview_invocation_handler","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
       ],"init":"","kind":4,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
