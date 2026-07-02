@@ -1,0 +1,138 @@
+{
+  "$GMExtension": "",
+  "%Name": "GMMobileReview",
+  "androidactivityinject": null,
+  "androidclassname": "GMMobileReview",
+  "androidcodeinjection": "\u003CYYAndroidGradleDependencies\u003E\r\nimplementation \u0027com.google.android.play:review:2.0.2\u0027\r\n\u003C/YYAndroidGradleDependencies\u003E\r\n\r\n",
+  "androidinject": null,
+  "androidmanifestinject": null,
+  "androidPermissions": [],
+  "androidProps": true,
+  "androidsourcedir": "",
+  "author": "",
+  "classname": "GMMobileReview",
+  "copyToTargets": 12,
+  "description": "",
+  "exportToGame": true,
+  "extensionVersion": "1.3.0",
+  "files": [
+    {
+      "$GMExtensionFile": "v1",
+      "%Name": "",
+      "constants": [],
+      "copyToTargets": 12,
+      "filename": "GMMobileReview.ext",
+      "final": "",
+      "functions": [
+        {
+          "$GMExtensionFunction": "",
+          "%Name": "__mobile_review_show",
+          "argCount": 2,
+          "args": [
+            1,
+            2
+          ],
+          "documentation": "@param {Pointer} _arg_buffer\r\n@param {Real} _arg_buffer_length\r\n@returns {Real}",
+          "externalName": "__EXT_NATIVE__mobile_review_show",
+          "help": "",
+          "hidden": true,
+          "kind": 4,
+          "name": "__mobile_review_show",
+          "resourceType": "GMExtensionFunction",
+          "resourceVersion": "2.0",
+          "returnType": 2
+        },
+        {
+          "$GMExtensionFunction": "",
+          "%Name": "__GMMobileReview_invocation_handler",
+          "argCount": 2,
+          "args": [
+            1,
+            2
+          ],
+          "documentation": "@param {Pointer} _buffer_ptr\r\n@param {Real} _buffer_size",
+          "externalName": "__EXT_NATIVE__GMMobileReview_invocation_handler",
+          "help": "",
+          "hidden": true,
+          "kind": 4,
+          "name": "__GMMobileReview_invocation_handler",
+          "resourceType": "GMExtensionFunction",
+          "resourceVersion": "2.0",
+          "returnType": 2
+        }
+      ],
+      "init": "",
+      "kind": 4,
+      "name": "",
+      "origname": "",
+      "ProxyFiles": [],
+      "resourceType": "GMExtensionFile",
+      "resourceVersion": "2.0",
+      "uncompress": false,
+      "usesRunnerInterface": false
+    }
+  ],
+  "gradleinject": null,
+  "hasConvertedCodeInjection": true,
+  "helpfile": "",
+  "HTML5CodeInjection": "",
+  "html5Props": false,
+  "IncludedResources": [],
+  "installdir": "",
+  "iosCocoaPodDependencies": "",
+  "iosCocoaPods": "",
+  "ioscodeinjection": "",
+  "iosdelegatename": "",
+  "iosplistinject": null,
+  "iosProps": true,
+  "iosSystemFrameworkEntries": [
+    {
+      "$GMExtensionFrameworkEntry": "",
+      "%Name": "StoreKit.framework",
+      "embed": 0,
+      "name": "StoreKit.framework",
+      "resourceType": "GMExtensionFrameworkEntry",
+      "resourceVersion": "2.0",
+      "weakReference": false
+    }
+  ],
+  "iosThirdPartyFrameworkEntries": [
+    {
+      "$GMExtensionFrameworkEntry": "",
+      "%Name": "GMMobileReview.xcframework",
+      "embed": 0,
+      "name": "GMMobileReview.xcframework",
+      "resourceType": "GMExtensionFrameworkEntry",
+      "resourceVersion": "2.0",
+      "weakReference": false
+    }
+  ],
+  "license": "",
+  "maccompilerflags": "",
+  "maclinkerflags": "-ObjC",
+  "macsourcedir": "",
+  "name": "GMMobileReview",
+  "options": [],
+  "optionsFile": "options.json",
+  "packageId": "",
+  "parent": {
+    "name": "Extensions",
+    "path": "folders/MobileReview/Extensions.yy"
+  },
+  "productId": "",
+  "resourceType": "GMExtension",
+  "resourceVersion": "2.0",
+  "sourcedir": "",
+  "supportedTargets": -1,
+  "tvosclassname": null,
+  "tvosCocoaPodDependencies": "",
+  "tvosCocoaPods": "",
+  "tvoscodeinjection": "",
+  "tvosdelegatename": null,
+  "tvosmaccompilerflags": "",
+  "tvosmaclinkerflags": "",
+  "tvosplistinject": null,
+  "tvosProps": false,
+  "tvosSystemFrameworkEntries": [],
+  "tvosThirdPartyFrameworkEntries": []
+}

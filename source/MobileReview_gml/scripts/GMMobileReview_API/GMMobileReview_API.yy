@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GMMobileReview_API",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GMMobileReview_API",
+  "parent":{
+    "name":"Extensions",
+    "path":"folders/MobileReview/Extensions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
