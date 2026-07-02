@@ -14,7 +14,7 @@
   },
   "targets": {
     "ios":{
-      "mode": "objc"
+      "mode": "swift"
     },
     "android":{
       "mode": "java"

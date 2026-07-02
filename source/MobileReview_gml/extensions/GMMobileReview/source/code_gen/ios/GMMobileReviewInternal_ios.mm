@@ -4,6 +4,11 @@
 #import "core/GMExtUtils.h"
 #import "GMMobileReviewInternal_ios.h"
 
+#ifdef __cplusplus
+#import "GMMobileReview-Swift.h"
+using namespace GMMobileReview;
+#endif
+
 
 extern "C" const char* extOptGetString(char* _ext, char* _opt);
 
@@ -60,8 +65,7 @@ static void GMInjectSelectorsIntoSubclass(Class subclass, Class base)
 
 @interface GMMobileReviewInternal ()
 {
-    gm::runtime::DispatchQueue __dispatch_queue;
-    id<GMMobileReviewInterface> __impl;
+    GMMobileReviewSwift * __impl;
 }@end
 
 
@@ -100,27 +104,23 @@ static void GMInjectSelectorsIntoSubclass(Class subclass, Class base)
     self = [super init];
     if (self)
     {
-        __impl = (id<GMMobileReviewInterface>)self;
+        #ifdef __cplusplus
+        // Create Swift object once
+        __impl = new GMMobileReviewSwift(GMMobileReviewSwift::init());
+        #endif
     }
     return self;
 }
 - (double)__EXT_NATIVE__mobile_review_show:(char*)__arg_buffer arg1:(double)__arg_buffer_length
 {
-    gm::byteio::BufferReader __br{__arg_buffer, static_cast<size_t>(__arg_buffer_length)};
-
-    // field: callback, type: Function
-    gm::wire::GMFunction callback = gm::wire::codec::readFunction(__br, &__dispatch_queue);
-
-    [__impl mobile_review_show:callback];
-
+    __impl->__EXT_SWIFT__mobile_review_show(__arg_buffer, __arg_buffer_length);
     return 0;
 }
 
 // Internal function used for fetching dispatched function calls to GML
 - (double)__EXT_NATIVE__GMMobileReview_invocation_handler:(char*)__ret_buffer arg1:(double)__ret_buffer_length
 {
-    gm::byteio::BufferWriter __bw{ __ret_buffer, static_cast<size_t>(__ret_buffer_length) };
-    return __dispatch_queue.fetch(__bw);
+    return __impl->__EXT_SWIFT__GMMobileReview_invocation_handler(__ret_buffer, __ret_buffer_length);
 }
 
 @end
