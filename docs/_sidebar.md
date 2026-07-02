@@ -1,4 +1,4 @@
-* ### [Mobile Review](Home)
+* ### [Mobile Review](home)
 * ### Guides
   * ### [Getting Started](getting_started)
 * ### Info
