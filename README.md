@@ -5,6 +5,9 @@ This repository was created with the intent of presenting users with the latest 
 
 This extension lets you prompt players to rate and review your app from inside the game, using the platform's native in-app review flow. It exposes a single function, `mobile_review_show(callback)`, and works on **Android** (using the [Google Play In-App Reviews API](https://developer.android.com/guide/playcore/in-app-review)) and **iOS** (using the native [StoreKit Framework](https://developer.apple.com/documentation/storekit)).
 
+> [!IMPORTANT]
+> **Version 2.0.0 is a breaking change.** Projects upgrading from an earlier (1.x) version will need to adjust their code. Check [the documentation](../../wiki) for the current API.
+
 * Android source: `source/MobileReview_gml/extensions/GMMobileReview/AndroidSource/`
 * iOS source: `source/MobileReview_gml/extensions/GMMobileReview/source/src/ios/`
 
